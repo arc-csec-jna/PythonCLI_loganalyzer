@@ -1,0 +1,16 @@
+Log Summary 
+-------------------------
+INFO:10
+WARN:4
+ERROR:5
+
+
+First Error Time: 2026-02-10 08:01:12
+Last Error Time: 2026-02-10 08:05:46
+Top 5 Errors:
+
+1 x connection timeout after 5000ms
+1 x connection timeout after 3000ms
+1 x unhandled exception in request handler
+1 x traceback (most recent call last)
+1 x valueerror: invalid user input

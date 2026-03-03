@@ -1,0 +1,19 @@
+2026-02-10 08:00:01 INFO  systemd[1]: Starting Application Service...
+2026-02-10 08:00:03 INFO  app[1023]: Application version 1.4.2 starting
+2026-02-10 08:00:05 WARN  disk_monitor[412]: Disk usage at 82% on /var
+2026-02-10 08:00:07 INFO  app[1023]: Connected to PostgreSQL database
+2026-02-10 08:01:12 ERROR db_client[2048]: Connection timeout after 5000ms
+2026-02-10 08:01:15 WARN  app[1023]: Retrying database connection (attempt 1)
+2026-02-10 08:01:20 ERROR db_client[2048]: Connection timeout after 3000ms
+2026-02-10 08:01:25 WARN  app[1023]: Retrying database connection (attempt 2)
+2026-02-10 08:01:30 INFO  app[1023]: Database connection restored
+2026-02-10 08:02:00 INFO  healthcheck[999]: Service health check passed
+2026-02-10 08:05:45 ERROR api_server[3056]: Unhandled exception in request handler
+2026-02-10 08:05:46 ERROR api_server[3056]: Traceback (most recent call last)
+2026-02-10 08:05:46 ERROR api_server[3056]: ValueError: invalid user input
+2026-02-10 08:05:47 INFO  api_server[3056]: Request failed with status 400
+2026-02-10 08:10:00 WARN  disk_monitor[412]: Disk usage at 88% on /var
+2026-02-10 08:15:00 INFO  scheduler[1777]: Scheduled cleanup job started
+2026-02-10 08:15:03 INFO  scheduler[1777]: Removed 124 temporary files
+2026-02-10 08:15:05 INFO  scheduler[1777]: Cleanup job completed successfully
+2026-02-10 08:20:00 INFO  systemd[1]: Application Service running normally

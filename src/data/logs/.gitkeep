@@ -1,0 +1,6 @@
+# Ignore real logs
+data/logs/*
+!data/logs/.gitkeep
+
+# Ignore large sample logs if needed (optional)
+# data/samples/*.log

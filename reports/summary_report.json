@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "log_file": "src\\data\\sample\\system.log",
+    "generated_at": "2026-03-03T01:32:07.297511+00:00",
+    "top_n": 5
+  },
+  "counts": {
+    "INFO": 10,
+    "WARN": 4,
+    "ERROR": 5,
+    "UNKNOWN": 0
+  },
+  "first_error": "2026-02-10 08:01:12",
+  "last_error": "2026-02-10 08:05:46",
+  "top_errors": [
+    [
+      "connection timeout after 5000ms",
+      1
+    ],
+    [
+      "connection timeout after 3000ms",
+      1
+    ],
+    [
+      "unhandled exception in request handler",
+      1
+    ],
+    [
+      "traceback (most recent call last)",
+      1
+    ],
+    [
+      "valueerror: invalid user input",
+      1
+    ]
+  ],
+  "error_groupings": [
+    [
+      "connection timeout after 5000ms",
+      1
+    ],
+    [
+      "connection timeout after 3000ms",
+      1
+    ],
+    [
+      "unhandled exception in request handler",
+      1
+    ],
+    [
+      "traceback (most recent call last)",
+      1
+    ],
+    [
+      "valueerror: invalid user input",
+      1
+    ]
+  ]
+}
