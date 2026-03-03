@@ -1,3 +1,4 @@
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 # Log Analyzer (Python)
 
 A CLI log analysis tool with Python that processes application logs through steaming file processing for minimal memory usage.
